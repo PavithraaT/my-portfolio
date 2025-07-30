@@ -759,8 +759,8 @@ html {
 }
 
 .profile-pic {
-  width: 130px;
-  height: 140px;
+  width: 150px;
+  height: 160px;
   border-radius: 50%;
   display: block;
   margin: 20px auto;
@@ -772,3 +772,7 @@ html {
   transform: scale(1.05);
 }
 
+glow-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00f0ff, 0 0 50px #00f0ff, 0 0 75px #00f0ff;
+}
