@@ -782,3 +782,39 @@ html {
     0 0 45px #add8e6;
 }
 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-content p {
+    font-size: 1em;
+  }
+
+  .glow-pic {
+    width: 180px;
+  }
+
+  .info-box {
+    font-size: 0.95em;
+    padding: 1rem;
+  }
+
+  .info-sections {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Optional fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
