@@ -47,7 +47,7 @@ a {
   margin-bottom: 0.2em;
   color: #00f0ff;
   text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
-  liine-height: 2.5;
+  line-height: 2.5;
 }
 
 hero-content p {
@@ -243,9 +243,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .info-box {
-    min-width: 200px;
+    min-width: 180px;
   }
 
   .arrow {
@@ -756,24 +756,4 @@ html {
   50% {
     text-shadow: 0 0 20px #00cfff, 0 0 30px #00cfff, 0 0 40px #00cfff;
   }
-}
-
-
-.profile-img {
-  width: 150px;          /* Reduced width */
-  height: 150px;         /* Make it square */
-  border-radius: 50%;
-  border: 2px solid #ffffff;
-  box-shadow:
-    0 0 10px #ffffff,
-    0 0 20px #00f0ff,
-    0 0 40px rgba(0, 240, 255, 0.4);
-  object-fit: cover;
-  margin-bottom: 1rem;
-  transition: transform 0.3s ease;
-}
-
-
-.profile-img:hover {
-  transform: scale(1.05);
 }
