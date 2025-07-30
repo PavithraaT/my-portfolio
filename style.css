@@ -68,13 +68,14 @@ hero-content p {
 
 .profile-img {
   width: 160px;
-  height: 170px;
+  height: 180px;
   border-radius: 50%;
   border: 2px solid #00f0ff;
-  box-shadow: 0 0 15px #00f0ff, 0 0 30px rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px #00f0ff, 0 0 30px rgba(255, 255, 255, 0.6);
   object-fit: cover;
   margin-bottom: 0.3rem;
 }
+
 
 @media (max-width: 500px) {
   .profile-img {
@@ -243,10 +244,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .info-box {
-    min-width: 180px;
-  }
 
   .arrow {
     display: none; /* hide arrows if not enough space */
@@ -309,16 +306,10 @@ footer {
   margin: 6px 0;
 }
 
-/* ✅ Responsive Design */
-@media (max-width: 500px) {
-  .skills-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .skill-category {
-    width: 80%;
-    margin-bottom: 20px;
+.skill-category {
+  width: 80%;
+  margin-bottom: 20px;
   }
 }
 
