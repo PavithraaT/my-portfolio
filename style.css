@@ -243,9 +243,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .info-box {
-    min-width: 180px;
+    min-width: 200px;
   }
 
   .arrow {
@@ -760,25 +760,20 @@ html {
 
 
 
-.glow-pic {
-  width: 170px;
-  height: 180px;
+.profile-img {
+  width: 250px;
+  height: 270px;
   border-radius: 50%;
-  display: block;
-  margin: 20px auto;
-  border: 4px solid #ffffff;
-  box-shadow:
-    0 0 10px #ffffff,
-    0 0 20px #add8e6,
-    0 0 30px #add8e6;
-  transition: transform 0.3s ease-in-out;
-}
-
-.glow-pic:hover {
-  transform: scale(1.05);
+  border: 2px solid #ffffff;
   box-shadow:
     0 0 15px #ffffff,
-    0 0 30px #add8e6,
-    0 0 45px #add8e6;
+    0 0 30px #00f0ff,
+    0 0 60px rgba(0, 240, 255, 0.5);
+  object-fit: cover;
+  margin-bottom: 0.3rem;
+  transition: transform 0.3s ease;
 }
 
+.profile-img:hover {
+  transform: scale(1.05);
+}
