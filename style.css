@@ -757,3 +757,18 @@ html {
     text-shadow: 0 0 20px #00cfff, 0 0 30px #00cfff, 0 0 40px #00cfff;
   }
 }
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
